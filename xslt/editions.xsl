@@ -164,4 +164,57 @@
             </body>
         </html>
     </xsl:template>
+
+    <!-- Opener -->
+    <xsl:template match="tei:opener">
+        <div class="opener">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- Closer -->
+    <xsl:template match="tei:closer">
+        <div class="closer">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- Salute -->
+    <xsl:template match="tei:salute">
+        <span class="salute">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Signed -->
+    <xsl:template match="tei:signed">
+        <span class="signed">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Adresse -->
+    <xsl:template match="tei:address">
+        <div class="address">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:addrLine">
+        <span class="addrLine">
+            <xsl:apply-templates/><br/>
+        </span>
+    </xsl:template>
+
+    <!-- Lücken -->
+    <xsl:template match="tei:gap">
+        <span class="gap" title="Lücke in der Transkription">[…]</span>
+    </xsl:template>
+
+    <!-- Unclear -->
+    <xsl:template match="tei:unclear">
+        <span class="unclear" title="Unsichere Lesung">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 </xsl:stylesheet>
