@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title>Postkarte an Karl Kraus</tei:title>
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <tei:p>Derived from METS record.</tei:p>
+         </tei:publicationStmt>
+         <tei:sourceDesc>
+            <tei:bibl>
+               <tei:title>Postkarte an Karl Kraus</tei:title>
+               <tei:idno type="objid">4</tei:idno>
+               <tei:idno type="local">9910709590104516</tei:idno>
+               <tei:idno type="urn">urn:nbn:at:AT-WBR-1932255</tei:idno>
+               <tei:idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5618317</tei:idno>
+               <tei:date when="1904-07-07" subtype="start">1904-07-07</tei:date>
+               <tei:date>1904</tei:date>
+               <tei:pubPlace>Berlin</tei:pubPlace>
+               <tei:note type="issuance">monographic</tei:note>
+               <tei:extent>1 Kt., eh. Ms., eh. Paraphe</tei:extent>
+            </tei:bibl>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+   </tei:teiHeader>
+   <tei:facsimile>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5618318">
+         <tei:desc>[Seite 1]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5618318"/>
+      </tei:surface>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5618319">
+         <tei:desc>[Seite 2]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5618319"/>
+      </tei:surface>
+   </tei:facsimile>
+   <tei:text>
+      <tei:body>
+         <tei:pb facs="#surf-IMG_DEFAULT_5618318" n="1"/>
+         <tei:p>
+         <tei:lb/>Viele herzliche Grüße sendet Ihnen G.P.
+         <tei:lb/>Ich fahre heute nach Hamburg, von da nach Bremen
+         <tei:lb/>und <tei:gap reason="illegible" quantity="1" unit="words"/> längerem Aufenthalt nach
+         <tei:lb/>Scheveningen <tei:gap reason="illegible" quantity="1" unit="words"/> Hotel Garin, wohin ich
+         <tei:lb/>bitte, mir zu schreiben, wie Ihnen Paris gefallen hat.
+      </tei:p>
+         <tei:pb facs="#surf-IMG_DEFAULT_5618319" n="2"/>
+         <tei:address>
+         <tei:addrLine><tei:sic>Wolgeboren</tei:sic></tei:addrLine>
+         <tei:addrLine>Herrn Karl Kraus</tei:addrLine>
+         <tei:addrLine>Wien IV</tei:addrLine>
+         <tei:addrLine>Schwindgasse 3</tei:addrLine>
+      </tei:address>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

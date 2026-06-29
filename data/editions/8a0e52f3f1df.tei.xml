@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title>Brief an Karl Kraus</tei:title>
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <tei:p>Derived from METS record.</tei:p>
+         </tei:publicationStmt>
+         <tei:sourceDesc>
+            <tei:bibl>
+               <tei:title>Brief an Karl Kraus</tei:title>
+               <tei:idno type="objid">4</tei:idno>
+               <tei:idno type="local">9910709819204516</tei:idno>
+               <tei:idno type="urn">urn:nbn:at:AT-WBR-1613656</tei:idno>
+               <tei:idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5387505</tei:idno>
+               <tei:date when="1894-07-01" subtype="start">1894-07-01</tei:date>
+               <tei:date>1894</tei:date>
+               <tei:pubPlace>Wien</tei:pubPlace>
+               <tei:note type="issuance">monographic</tei:note>
+               <tei:extent>1 Bl., eh. Ms., eh. U.</tei:extent>
+            </tei:bibl>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+   </tei:teiHeader>
+   <tei:facsimile>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5387506">
+         <tei:desc>[Seite 1]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5387506"/>
+      </tei:surface>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5387507">
+         <tei:desc>[Seite 2]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5387507"/>
+      </tei:surface>
+   </tei:facsimile>
+   <tei:text>
+      <tei:body>
+         <tei:pb facs="#surf-IMG_DEFAULT_5387506" n="1"/>
+                        <tei:opener>
+         <tei:dateline>
+            <tei:placeName>Wien</tei:placeName>,
+            <tei:date when="1894-07-01">1.7.94</tei:date>
+         </tei:dateline>
+         <tei:salute>Hochgeehrter Herr Krauss!</tei:salute>
+      </tei:opener>
+
+      <tei:p>
+         <tei:lb/>Wir sitzen uns allabendlich
+         <tei:lb/>beim elektrischen Schein u.
+         <tei:lb/>italienischem Klang gegenüber.
+         <tei:lb/>Ja wohl <tei:gap reason="illegible" quantity="11" unit="words"/>
+         <tei:lb/>liebenswürdiger<tei:lb break="no"/>Weise annahmen Neumann
+         <tei:lb/>Hofer gegenüber. Ich füge ab<tei:lb break="no"/>sichtlich nicht „Herr" vor.
+         <tei:lb/>Vor Glück geschieht es nicht
+         <tei:lb/>aus Freunschaft u. vor letzterem
+         <tei:lb/>nicht Feindschaft, ich
+      </tei:p>
+         <tei:pb facs="#surf-IMG_DEFAULT_5387507" n="2"/>
+          <tei:p>
+         <tei:lb/>hasse und verachte ihn!
+         <tei:lb/>Kann ich nicht das Ver<tei:lb break="no"/>gnügen haben Sie vor Ihrer
+         <tei:lb/>Abreise nach Ischl auf
+         <tei:lb/>einen Moment nur noch
+         <tei:lb/>zu sprechen?
+         <tei:lb/>Ja, wann u. wo lassen Sie
+         <tei:lb/>mich durch Überbringer rufen
+         <tei:lb/>Bitte! bitte! -
+         <tei:lb/>Es grüßt unbekannterweise
+         <tei:lb/>doch auf's Wärmeste
+         <tei:lb/>und Dankbarste
+      </tei:p>
+            <tei:closer>
+         <tei:signed>M. Seliger</tei:signed>
+         <tei:address>
+            <tei:addrLine>Alserstr. 8 I</tei:addrLine>
+            <tei:addrLine>Thür 6</tei:addrLine>
+         </tei:address>
+      </tei:closer>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

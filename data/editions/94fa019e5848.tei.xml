@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title>Brief an Karl Kraus</tei:title>
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <tei:p>Derived from METS record.</tei:p>
+         </tei:publicationStmt>
+         <tei:sourceDesc>
+            <tei:bibl>
+               <tei:title>Brief an Karl Kraus</tei:title>
+               <tei:idno type="objid">4</tei:idno>
+               <tei:idno type="local">9910709630504516</tei:idno>
+               <tei:idno type="urn">urn:nbn:at:AT-WBR-1932119</tei:idno>
+               <tei:idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5618259</tei:idno>
+               <tei:date when="1899-10-18" subtype="start">1899-10-18</tei:date>
+               <tei:date>1899</tei:date>
+               <tei:pubPlace>Wien</tei:pubPlace>
+               <tei:note type="issuance">monographic</tei:note>
+               <tei:extent>2 Bl., eh. Ms., eh. U.</tei:extent>
+            </tei:bibl>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+   </tei:teiHeader>
+   <tei:facsimile>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5618260">
+         <tei:desc>[Seite 1]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5618260"/>
+      </tei:surface>
+      <tei:surface xml:id="surf-IMG_DEFAULT_5618261">
+         <tei:desc>[Seite 2]</tei:desc>
+         <tei:graphic url="https://www.digital.wienbibliothek.at/download/webcache/1000/5618261"/>
+      </tei:surface>
+   </tei:facsimile>
+   <tei:text>
+      <tei:body>
+         <tei:div type="letter">
+         <tei:pb facs="#surf-IMG_DEFAULT_5618260" n="1"/>
+         
+         <tei:opener>
+               <tei:salute>Lieber Herr Kraus!</tei:salute>
+            </tei:opener>
+<tei:p>
+      <tei:lb/>Ich erinnere mich
+        <tei:lb/>daß Sie mich
+        <tei:lb/>in Ischl ganz
+        <tei:lb/>gut leiden kon<tei:lb break="no"/>nten? Nun möchte
+        <tei:lb/>ich Sie ersuchen
+        <tei:lb/>wenn es Ihre Zeit
+        <tei:lb/>erlaubt mir eine
+        <tei:lb/>Stunde zu widmen
+        <tei:lb/>ich möchte mich
+        <tei:lb/>so gerne wieder
+         </tei:p>
+         <tei:pb facs="#surf-IMG_DEFAULT_5618261" n="2"/>
+         <tei:p>
+         <tei:lb/>einmal mit
+        <tei:lb/>einem vernünftigen
+        <tei:lb/>Menschen den
+        <tei:lb/>ich gut leiden
+        <tei:lb/>kann <tei:gap reason="illegible" quantity="1" unit="words"/>
+        <tei:lb/>bitte wenn Sie
+        <tei:lb/>Zeit haben, besuchen
+        <tei:lb/>Sie mich im
+        <tei:lb/>Laufe dieser
+        <tei:lb/>Woche einmal!
+        <tei:lb/>Benachrichtigen
+        <tei:lb/>Sie mich aber vor<tei:lb break="no"/>her damit ich
+        <tei:lb/>zu Hause bin!
+      </tei:p>
+         <tei:closer>
+        <tei:salute>Mit besten Grüßen</tei:salute>
+        <tei:signed>
+          <tei:persName>
+            <tei:unclear reason="illegible">Fanny</tei:unclear>
+            <tei:gap reason="illegible" quantity="2" unit="words"/>
+          </tei:persName>
+        </tei:signed>
+        <tei:address>
+          <tei:addrLine>II. Czerningasse 15. I/15</tei:addrLine>
+        </tei:address>
+      </tei:closer>
+
+    </tei:div>
+  </tei:body>
+</tei:text>
+</tei:TEI>

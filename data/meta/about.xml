@@ -1,0 +1,24 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Über das Projekt</title>
+              <title type="sub">Karl Kraus Edition</title>
+           </titleStmt>
+           <publicationStmt>
+              <p>Publication Information</p>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Information about the source</p>
+           </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <p>
+               Diese digitale Edition wurde von Sophie Schwammer im Rahmen der Lehrveranstaltung erstellt. Die Edition basiert auf jenen Dokumenten, die als Prüfungsleistung der Lehrveranstaltung bearbeitet werden.
+           </p>
+        </body>
+    </text>
+  </TEI>
+  
